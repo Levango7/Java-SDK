@@ -1,4 +1,4 @@
-package test.testinfo;
+package Test.testinfo;
 
 import com.alibaba.fastjson.JSONObject;
 import com.company.keystore.wallet.TxUtility;
@@ -125,7 +125,7 @@ public class test1 {
     public static void main(String[] args) {
 
         String fromPubkey = "d0f1966cee219fcfdbcee698517fcf864f46817c30bc8218eb4889d02f312540";
-        String toPubkeyHash = "039a676b65273eeca96af35e35c05e482650c979";
+        String toPubkeyHash = "f763e6e1b877db7ca0b569c10bb96e7a34b999b8";
         String prikey = "9972e47b6f733a834bc6485085e5d39685401a515fd37932d17a8c0bcfac3e41";
 
         String fromPubkey2 = "13be75229850374c692536c36d05dcd10a10206811996a3fb4d605acfefa5c4b";
@@ -149,11 +149,11 @@ public class test1 {
 
 
         // 1.16 转账
-//        String txInfo = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(0.1),prikey, nonce.longValue()).get("message");
-//        String txHash = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(0.1),prikey, nonce.longValue()).get("data");
-//        System.out.println("txInfo : " + txInfo);
-//        System.out.println("txHash : " + txHash);
-//        sendTransaction(txInfo);
+        String txInfo = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(100000),prikey, nonce.longValue()).get("message");
+        String txHash = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(100000),prikey, nonce.longValue()).get("data");
+        System.out.println("txInfo : " + txInfo);
+        System.out.println("txHash : " + txHash);
+        sendTransaction(txInfo);
 
 //        String txInfo = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey2), BigDecimal.valueOf(30000),prikey, nonce.longValue()).get("message");
 //        String txHash = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey2), BigDecimal.valueOf(30000),prikey, nonce.longValue()).get("data");
@@ -193,11 +193,11 @@ public class test1 {
 //        sendTransaction(traninfo);
 
         //1.22 撤回抵押事务
-        String traninfo = (String) TxUtility.ClientToTransferMortgageWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(10000),nonce.longValue(),"7eacd77f3281d64c261961f25bc4599e640b242b757879b3522c4319e322a891",prikey).get("message");
-        String txHash = (String) TxUtility.ClientToTransferMortgageWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(10000),nonce.longValue(),"7eacd77f3281d64c261961f25bc4599e640b242b757879b3522c4319e322a891",prikey).get("data");
-        System.out.println("traninfo : " + traninfo);
-        System.out.println("txHash : " + txHash);
-        sendTransaction(traninfo);
+//        String traninfo = (String) TxUtility.ClientToTransferMortgageWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(10000),nonce.longValue(),"7eacd77f3281d64c261961f25bc4599e640b242b757879b3522c4319e322a891",prikey).get("message");
+//        String txHash = (String) TxUtility.ClientToTransferMortgageWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(10000),nonce.longValue(),"7eacd77f3281d64c261961f25bc4599e640b242b757879b3522c4319e322a891",prikey).get("data");
+//        System.out.println("traninfo : " + traninfo);
+//        System.out.println("txHash : " + txHash);
+//        sendTransaction(traninfo);
 
         // 1.23 申请孵化
 //        String txInfoIncubate = (String)TxUtility.ClientToIncubateAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(300),prikey,"" ,120,nonce.longValue()).get("message");

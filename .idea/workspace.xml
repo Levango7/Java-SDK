@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b3013a4-3c5f-4abb-bd66-db813ec6b835" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wcli_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wcli_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wcli.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wcli.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/testinfo/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/testinfo/test1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1SJaexiJ57pI9uZFQYvwv2JJuGI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563169985060" />
@@ -99,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KeystoreAction">
+  <component name="RunManager" selected="Application.test1 (1)">
     <configuration name="AESUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.keystore.wallet.AESUtils" />
       <module name="wcli" />
@@ -126,16 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="wcli" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TxUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.keystore.wallet.TxUtility" />
       <module name="wcli" />
@@ -149,12 +143,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WalletUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.keystore.wallet.WalletUtility" />
+    <configuration name="test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.testinfo.test1" />
       <module name="wcli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.keystore.wallet.*" />
+          <option name="PATTERN" value="Test.testinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testinfo.test1" />
+      <module name="wcli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +170,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.WalletUtility" />
       <item itemvalue="Application.KeystoreAction" />
       <item itemvalue="Application.TxUtility" />
       <item itemvalue="Application.AESUtils" />
+      <item itemvalue="Application.test1" />
+      <item itemvalue="Application.test1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test1 (1)" />
+        <item itemvalue="Application.test1" />
         <item itemvalue="Application.KeystoreAction" />
         <item itemvalue="Application.TxUtility" />
         <item itemvalue="Application.AESUtils" />
-        <item itemvalue="Application.WalletUtility" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +206,9 @@
       <workItem from="1562999644010" duration="595000" />
       <workItem from="1563002775964" duration="40221000" />
       <workItem from="1571284254516" duration="389000" />
+      <workItem from="1571295816320" duration="2329000" />
+      <workItem from="1571363992160" duration="39000" />
+      <workItem from="1571628485066" duration="1080000" />
     </task>
     <servers />
   </component>
@@ -210,11 +220,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

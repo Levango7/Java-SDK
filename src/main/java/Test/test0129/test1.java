@@ -1,18 +1,15 @@
-package Test.work2;
+package Test.test0129;
 
 import com.alibaba.fastjson.JSONObject;
-import com.company.keystore.wallet.TxUtility;
-import com.company.keystore.wallet.WalletUtility;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.math.BigDecimal;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class Testing3 {
+public class test1 {
 
     private static String sendPost(String url, String param) {
         PrintWriter out = null;
@@ -122,46 +119,5 @@ public class Testing3 {
         return result;
     }
 
-
-    public static void main(String[] args) {
-
-        String fromPubkey = "a8b02b4a49a18636afa61626c230a3bd9c3b457e65567ceeef42bf9ecc618e67";
-        String toPubkeyHash = "8b9bd2c9685ba026c28a2f7b8d60eceb48d78ad4";
-        String prikey = "b866c78ab89230f820ea5b5b19d5c48f79f7b8ec539662b4622de5697d163c36";
-
-        String urlSendNonce = "http://192.168.1.40:19585/sendNonce";
-        String params = "pubkeyhash=" + WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey);
-        System.out.println("params:" + params);
-        String result = sendPost(urlSendNonce,params);
-        System.out.println("result:" + result);
-        Integer nonce = (Integer) JSONObject.parseObject(result).get("data");
-
-//        for (int i = 1;i <= 3 ; i++) {
-//            // 1.23 申请孵化
-//            nonce++;
-//            String txInfoIncubate = (String) TxUtility.ClientToIncubateAccount(fromPubkey, WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(300), prikey, "", 120, nonce.longValue()).get("message");
-//            String txIncubate = (String) TxUtility.ClientToIncubateAccount(fromPubkey, WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(300), prikey, "", 120, nonce.longValue()).get("data");
-//            System.out.println("txInfoIncubate : " + txInfoIncubate);
-//            System.out.println("txIncubate : " + txIncubate);
-//            System.out.println("nonce:" + nonce);
-//            sendTransaction(txInfoIncubate);
-//
-//        }
-
-        String txInfo = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(100),prikey, nonce.longValue()).get("message");
-        String txHash = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(100),prikey, nonce.longValue()).get("data");
-        System.out.println("txInfo:" + txInfo);
-        System.out.println("txHash:" + txHash);
-        sendTransaction(txInfo);
-
-    }
-
-    private static void sendTransaction(String traninfo){
-        String url = "http://192.168.1.40:19585/sendTransaction";
-        String param = "traninfo=" + traninfo;
-//        System.out.println("traninfo:"+traninfo);
-        String result = sendPost(url, param);
-        System.out.println("结果:"  + result);
-    }
 
 }

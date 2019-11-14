@@ -1,4 +1,4 @@
-package test.For;
+package Test.For;
 
 import com.alibaba.fastjson.JSONObject;
 import com.company.keystore.wallet.TxUtility;
@@ -136,7 +136,7 @@ public class For2 {
         String prikey = "9972e47b6f733a834bc6485085e5d39685401a515fd37932d17a8c0bcfac3e41";
         String fromPubkey2 = "13be75229850374c692536c36d05dcd10a10206811996a3fb4d605acfefa5c4b";
 
-        String urlSendNonce = "http://192.168.1.52:19585/sendNonce";
+        String urlSendNonce = "http://192.168.1.40:19585/sendNonce";
         String params = "pubkeyhash="+ WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey);
         System.out.println("params" + ":" + params);
         String result = sendPost(urlSendNonce,params);
@@ -155,10 +155,10 @@ public class For2 {
     }
 
     private static void sendTransaction(String traninfo) {
-        String url = "http://192.168.1.52:19585/sendTransaction";
-        String param = "traninfo = " + traninfo;
+        String url = "http://192.168.1.40:19585/sendTransaction";
+        String param = "traninfo=" + traninfo;
         String result = sendPost(url, param);
-        System.out.println("结果 ： "  + result);
+        System.out.println("结果:"  + result);
     }
 
 

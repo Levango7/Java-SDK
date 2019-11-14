@@ -7,9 +7,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b3013a4-3c5f-4abb-bd66-db813ec6b835" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js-sdk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/For/forvote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/laoli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/NewTest/new1022.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/event/zhuanzhang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/test0129/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/For/forvote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/NewTest/new1022.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/event/zhuanzhang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/test0129/test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test/testinfo/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/testinfo/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/testinfo/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/testinfo/test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/testinfo/testTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/testinfo/testTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Testing1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Testing1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Testing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Testing2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Testing3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Testing3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Vote0929.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Vote0929.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Vote1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Vote1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work2/Testing1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work2/Testing1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work2/Testing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work2/Testing2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work2/Testing3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work2/Testing3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work2/Testing4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work2/Testing4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/testinfo/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/testinfo/test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/testinfo/test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/testinfo/test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/testinfo/testTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/testinfo/testTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Testing1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Testing1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Testing2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Testing2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Testing3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Testing3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Vote0929.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Vote0929.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Vote1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Vote1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work2/Testing1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work2/Testing1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work2/Testing2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work2/Testing2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work2/Testing3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work2/Testing3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/work2/Testing4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work2/Testing4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wcli.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wcli.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,47 +87,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>地址</find>
-      <find>base58</find>
-      <find>pubkeyHashToAddress</find>
-      <find>throw</find>
-      <find>connect</find>
-      <find>password.length()</find>
-      <find>unmarshal</find>
-      <find>fromPassword</find>
-      <find>decrypt</find>
-      <find>obtainPrikey</find>
-      <find>System.</find>
-      <find>addre</find>
-      <find>addressto</find>
-      <find>Json</find>
-      <find>throws</find>
-      <find>ClientToTransferAccount</find>
-      <find>CreateRawTransaction</find>
-      <find>hash</find>
-      <find>big</find>
-      <find>signRawBasicTransaction</find>
-      <find>孵化</find>
-      <find>sharepubkeyhash</find>
-      <find>setSharePubkeyHash</find>
-      <find>Sys</find>
-      <find>Sy</find>
-      <find>Syst</find>
-      <find>aRGON</find>
-      <find>salt</find>
-      <find>AES</find>
-      <find>saltLength</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven\repository" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -72,7 +105,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1SJaexiJ57pI9uZFQYvwv2JJuGI" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -80,11 +113,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563169985060" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Ideajar/wcli_jar/wcli.jar!/" />
+    <property name="last_opened_file_path" value="F:/Program Files/JetBrains/Ideajar/wcli_jar/wcli.jar!/" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,13 +137,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test1 (1)">
-    <configuration name="AESUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.keystore.wallet.AESUtils" />
+  <component name="RunManager" selected="Application.Testing2">
+    <configuration name="Test8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.KeyStoreInfo.Test8" />
       <module name="wcli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.keystore.wallet.*" />
+          <option name="PATTERN" value="Test.KeyStoreInfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeystoreAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.keystore.wallet.KeystoreAction" />
+    <configuration name="Testing2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.work2.Testing2" />
       <module name="wcli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.keystore.wallet.*" />
+          <option name="PATTERN" value="Test.work2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TxUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.keystore.wallet.TxUtility" />
+    <configuration name="Testing4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.work2.Testing4" />
       <module name="wcli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.keystore.wallet.*" />
+          <option name="PATTERN" value="Test.work2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,8 +177,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.testinfo.test1" />
+    <configuration name="laoli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.KeyStoreInfo.laoli" />
+      <module name="wcli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.KeyStoreInfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.testinfo.testTest" />
       <module name="wcli" />
       <extension name="coverage">
         <pattern>
@@ -156,33 +203,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.testinfo.test1" />
-      <module name="wcli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testinfo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.KeystoreAction" />
-      <item itemvalue="Application.TxUtility" />
-      <item itemvalue="Application.AESUtils" />
-      <item itemvalue="Application.test1" />
-      <item itemvalue="Application.test1 (1)" />
+      <item itemvalue="Application.Testing4" />
+      <item itemvalue="Application.testTest" />
+      <item itemvalue="Application.Test8" />
+      <item itemvalue="Application.laoli" />
+      <item itemvalue="Application.Testing2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test1 (1)" />
-        <item itemvalue="Application.test1" />
-        <item itemvalue="Application.KeystoreAction" />
-        <item itemvalue="Application.TxUtility" />
-        <item itemvalue="Application.AESUtils" />
+        <item itemvalue="Application.Testing2" />
+        <item itemvalue="Application.laoli" />
+        <item itemvalue="Application.Test8" />
+        <item itemvalue="Application.testTest" />
+        <item itemvalue="Application.Testing4" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +242,24 @@
       <workItem from="1571284254516" duration="389000" />
       <workItem from="1571295816320" duration="2329000" />
       <workItem from="1571363992160" duration="39000" />
-      <workItem from="1571628485066" duration="1080000" />
+      <workItem from="1571628485066" duration="6643000" />
+      <workItem from="1571646174645" duration="21374000" />
+      <workItem from="1571819300048" duration="614000" />
+      <workItem from="1571896558212" duration="9376000" />
+      <workItem from="1572231394681" duration="2272000" />
+      <workItem from="1572241929376" duration="599000" />
+      <workItem from="1572244510965" duration="9000" />
+      <workItem from="1572251234082" duration="4458000" />
+      <workItem from="1572328723027" duration="19408000" />
+      <workItem from="1572483585565" duration="10284000" />
+      <workItem from="1572502734818" duration="711000" />
+      <workItem from="1572514146830" duration="3239000" />
+      <workItem from="1572592602948" duration="3239000" />
+      <workItem from="1572847532486" duration="2417000" />
+      <workItem from="1573004535835" duration="4714000" />
+      <workItem from="1573089130444" duration="5082000" />
+      <workItem from="1573115448457" duration="2825000" />
+      <workItem from="1573434921782" duration="5158000" />
     </task>
     <servers />
   </component>
@@ -238,6 +289,22 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/company/keystore/wallet/TxUtility.java</url>
           <line>563</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/work2/Testing1.java</url>
+          <line>124</line>
+          <properties class="Test.work2.Testing1" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/testinfo/test1.java</url>
+          <line>124</line>
+          <properties class="Test.testinfo.test1" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

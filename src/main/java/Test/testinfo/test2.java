@@ -1,4 +1,4 @@
-package test.testinfo;
+package Test.testinfo;
 
 import com.alibaba.fastjson.JSONObject;
 import com.company.keystore.wallet.TxUtility;
@@ -130,10 +130,10 @@ public class test2 {
 
 
         String urlSendNonce = "http://192.168.0.105:19585/sendNonce";
-        String params = "pubkeyhash = " + WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey);
-        System.out.println("params : " + params);
+        String params = "pubkeyhash=" + WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey);
+        System.out.println("params:" + params);
         String result = sendPost(urlSendNonce,params);
-        System.out.println("result : " + result);
+        System.out.println("result:" + result);
         Integer nonce = (Integer) JSONObject.parseObject(result).get("data");
 
 
@@ -182,7 +182,7 @@ public class test2 {
 
     private static void sendTransaction(String traninfo){
         String url2 = "http://192.168.0.105:19585/sendTransaction";
-        String param2 = "traninfo = " + traninfo;
+        String param2 = "traninfo=" + traninfo;
         String result2 = sendPost(url2, param2);
         System.out.println("结果 ： "  + result2);
     }

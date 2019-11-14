@@ -1,4 +1,4 @@
-package test.KeyStoreInfo;
+package Test.KeyStoreInfo;
 
 import com.alibaba.fastjson.JSON;
 import com.company.keystore.wallet.WalletUtility;

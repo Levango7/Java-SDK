@@ -14,7 +14,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/commons-cli-1.2.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/bcprov-jdk15on-1.61.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -23,7 +23,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/bcprov-jdk15on-1.61.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/commons-cli-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -32,7 +32,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/commons-codec-1.10.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/commons-codec-1.10.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -41,7 +41,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/commons-httpclient-3.1.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/commons-lang3-3.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -50,7 +50,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/commons-lang3-3.4.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/commons-httpclient-3.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -59,7 +59,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/fastjson-1.2.51.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/commons-logging-1.0.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -68,7 +68,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/commons-logging-1.0.4.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/fastjson-1.2.51.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -77,7 +77,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/gson-2.8.5.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/guava-24.1-jre.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -86,7 +86,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/guava-24.1-jre.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/gson-2.8.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -95,7 +95,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/jackson-annotations-2.9.0.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/jackson-annotations-2.9.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -104,7 +104,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/jargon2-api-1.1.1.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/jargon2-api-1.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -113,7 +113,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/jargon2-native-ri-backend-1.1.1.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/jargon2-native-ri-backend-1.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -122,7 +122,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/jargon2-native-ri-binaries-generic-1.1.1.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/jargon2-native-ri-binaries-generic-1.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -131,7 +131,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/jna-4.5.2.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/jna-4.5.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -140,7 +140,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/jnaerator-runtime-0.12.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/jnaerator-runtime-0.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -149,7 +149,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/ochafik-util-0.12.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/ochafik-util-0.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -158,7 +158,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/protobuf-java-3.6.1.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/protobuf-java-3.6.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -167,7 +167,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/spring-context-5.1.2.RELEASE.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/spring-context-5.1.2.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -176,7 +176,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/validation-api-2.0.0.Final.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/validation-api-2.0.0.Final.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -185,7 +185,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Ideajar/wcli_jar/wcli.jar!/" />
+          <root url="jar://F:/Program Files/JetBrains/Ideajar/wcli_jar/wcli.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

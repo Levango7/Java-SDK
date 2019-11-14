@@ -1,4 +1,4 @@
-package test.For;
+package Test.For;
 
 import com.alibaba.fastjson.JSONObject;
 
@@ -132,10 +132,10 @@ public class For1 {
             String prikey = "9972e47b6f733a834bc6485085e5d39685401a515fd37932d17a8c0bcfac3e41";
 
             BigDecimal aa = new BigDecimal(0.1);
-            String url = "http://192.168.0.105:8080/" + "ClientToTransferAccount";
+            String url = "http://192.168.0.40:8080/" + "ClientToTransferAccount";
             String params = "";
 
-            params ="fromPubkey = " + fromPubkey + "&toPubkeyHash = " + toPubkeyHash + " &amount = " + aa + "&prikey = " + prikey;
+            params ="fromPubkey=" + fromPubkey + "&toPubkeyHash=" + toPubkeyHash + "&amount=" + aa + "&prikey=" + prikey;
             String result = sendPost(url,params);
             JSONObject AA = JSONObject.parseObject(result);
 
@@ -144,10 +144,10 @@ public class For1 {
             System.out.println("txhash" + i + ":" + id);
             System.out.println("traninfo" + i + ":" + traninfo);
 
-            String url2 = "http://192.168.0.186:19585/sendTransaction";
-            String param2 = "traninfo = " + traninfo;
+            String url2 = "http://192.168.0.40:19585/sendTransaction";
+            String param2 = "traninfo=" + traninfo;
             String result2 = sendPost(url2, param2);
-            System.out.println("结果 ： "  + i + result2);
+            System.out.println("结果:"  + i + result2);
 
         }
 

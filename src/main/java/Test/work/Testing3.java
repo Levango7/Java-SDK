@@ -1,4 +1,4 @@
-package test.work;
+package Test.work;
 
 import com.alibaba.fastjson.JSONObject;
 import com.company.keystore.wallet.TxUtility;
@@ -130,7 +130,7 @@ public class Testing3 {
 
         String fromPubkey2 = "13be75229850374c692536c36d05dcd10a10206811996a3fb4d605acfefa5c4b";
 
-        String urlSendNonce = "http://192.168.1.118:19585/sendNonce";
+        String urlSendNonce = "http://192.168.1.40:19585/sendNonce";
         String params = "pubkeyhash="+ WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey);
         System.out.println("params:"+params);
         String result = sendPost(urlSendNonce,params);
@@ -142,8 +142,8 @@ public class Testing3 {
             nonce++;
             String txInfoIncubate = (String)TxUtility.ClientToIncubateAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(300),prikey,"" ,120,nonce.longValue()).get("message");
             String txIncubate = (String)TxUtility.ClientToIncubateAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(300),prikey,"" ,120,nonce.longValue()).get("data");
-            System.out.println("txInfoIncubate : " + txInfoIncubate);
-            System.out.println("txIncubate : " + txIncubate);
+            System.out.println("txInfoIncubate:" + txInfoIncubate);
+            System.out.println("txIncubate:" + txIncubate);
             System.out.println("nonce:"+nonce);
             sendTransaction(txInfoIncubate);
             // 1.24 提取收益（孵化器）
@@ -166,11 +166,11 @@ public class Testing3 {
     }
 
     private static void sendTransaction(String traninfo){
-        String url = "http://192.168.1.118:19585/sendTransaction";
+        String url = "http://192.168.1.40:19585/sendTransaction";
         String param = "traninfo=" + traninfo;
 //        System.out.println("traninfo:"+traninfo);
         String result = sendPost(url, param);
-        System.out.println("结果："  + result);
+        System.out.println("结果:" + result);
     }
 
 }

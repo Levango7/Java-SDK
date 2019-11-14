@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class For3 {
+public class forvote {
 
     private static String ip;
 
@@ -133,29 +133,55 @@ public class For3 {
 
             String urlSendNonce = "http://192.168.1.40:19585/sendNonce";
             String params = "pubkeyhash="+ WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey);
-            System.out.println("params"+":"+params);
+            System.out.println("params" + ":"+params);
             String result = sendPost(urlSendNonce,params);
-            System.out.println("result"+":"+result);
+            System.out.println("result" + ":"+result);
             Integer nonce = (Integer) JSONObject.parseObject(result).get("data");
 
+            //1.19 投票
+//            String traninfo = (String)TxUtility.ClientToTransferVote(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey).get("message");
+//            String txHash = (String)TxUtility.ClientToTransferVote(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey).get("data");
+//            System.out.println("traninfo:"+traninfo);
+//            System.out.println("txHash:"+txHash);
+//            sendTransaction(traninfo);
 
-            for (int i = 1;i <= 5;i++){
-                nonce++;
-                //1.19 投票
-                String traninfo = (String)TxUtility.ClientToTransferVote(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey).get("message");
-                String txHash = (String)TxUtility.ClientToTransferVote(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey).get("data");
-                System.out.println("traninfo:"+traninfo);
-                System.out.println("txHash:"+txHash);
-                sendTransaction(traninfo);
+            //1.20 撤回投票
+            nonce++;
+            String traninfo1 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"affa3785e18bf310baa21bd6a8a97092669abbfc21573bed6d7c3b46b47fecda").get("message");
+            String txHash1 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"affa3785e18bf310baa21bd6a8a97092669abbfc21573bed6d7c3b46b47fecda").get("data");
+            System.out.println("traninfo:" + traninfo1);
+            System.out.println("txHash:"+ txHash1);
+            sendTransaction(traninfo1);
 
-                //1.20 撤回投票
-//                String traninfo = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(1000),nonce.longValue(),prikey,"bf219e3ade17fbfba8d0f176143f265bf940d068c109d67124ed46ee3d083168").get("message");
-//                String txHash = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(1000),nonce.longValue(),prikey,"bf219e3ade17fbfba8d0f176143f265bf940d068c109d67124ed46ee3d083168").get("data");
-//                System.out.println("traninfo:" + traninfo);
-//                System.out.println("txHash:"+ txHash);
-//                sendTransaction(traninfo);
+            nonce++;
+            String traninfo2 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"11f868db533b43c137405535be13a0ea88f58a32b931af5abd5e27a726ab72ab").get("message");
+            String txHash2 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"11f868db533b43c137405535be13a0ea88f58a32b931af5abd5e27a726ab72ab").get("data");
+            System.out.println("traninfo:" + traninfo2);
+            System.out.println("txHash:"+ txHash2);
+            sendTransaction(traninfo2);
 
-            }
+            nonce++;
+            String traninfo3 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"05c17f54e63c0cd01003ad2fc1b44b09b68c1c1140b469b6fe4a0a025439c394").get("message");
+            String txHash3 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"05c17f54e63c0cd01003ad2fc1b44b09b68c1c1140b469b6fe4a0a025439c394").get("data");
+            System.out.println("traninfo:" + traninfo3);
+            System.out.println("txHash:"+ txHash3);
+            sendTransaction(traninfo3);
+
+            nonce++;
+            String traninfo4 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"1698a4b0d85548cf907c5d28b78b72383b8c712afeb0602e97e2b68c733d4044").get("message");
+            String txHash4 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"1698a4b0d85548cf907c5d28b78b72383b8c712afeb0602e97e2b68c733d4044").get("data");
+            System.out.println("traninfo:" + traninfo4);
+            System.out.println("txHash:"+ txHash4);
+            sendTransaction(traninfo4);
+
+
+//            String traninfo5 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"d8ea46f345b31ec5ffd2a7bf6b22b5237a59e6f1796c7aa9ab747fbde3fc8599").get("message");
+//            String txHash5 = (String)TxUtility.ClientToTransferVoteWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(300),nonce.longValue(),prikey,"d8ea46f345b31ec5ffd2a7bf6b22b5237a59e6f1796c7aa9ab747fbde3fc8599").get("data");
+//            System.out.println("traninfo:" + traninfo5);
+//            System.out.println("txHash:"+ txHash5);
+//            sendTransaction(traninfo5);
+
+
     }
 
     private static void sendTransaction(String traninfo) {

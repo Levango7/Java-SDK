@@ -1,4 +1,4 @@
-package Test.work2;
+package Test.OCtest;
 
 import com.alibaba.fastjson.JSONObject;
 import com.company.keystore.wallet.TxUtility;
@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class Testing4 {
+public class OCtest1 {
 
     private static String sendPost(String url, String param) {
         PrintWriter out = null;
@@ -122,49 +122,27 @@ public class Testing4 {
         return result;
     }
 
-
     public static void main(String[] args) {
-        String fromPubkey = "fded3c8de24ea81f10b7761cdb8d7991b396340b8f09988783d723516ff724bb";
-        String toPubkeyHash = "2c04de0200ab247954d81eac9a26024d27add58c";
-        String prikey = "e90369c836bff80dad748fa674f2606d77599db5580871356c0d20e3945073c7";
+
+        String fromPubkey = "a8b02b4a49a18636afa61626c230a3bd9c3b457e65567ceeef42bf9ecc618e67";
+        String toPubkeyHash = "8b9bd2c9685ba026c28a2f7b8d60eceb48d78ad4";
+        String prikey = "b866c78ab89230f820ea5b5b19d5c48f79f7b8ec539662b4622de5697d163c36";
+
 
         String urlSendNonce = "http://192.168.1.40:19585/sendNonce";
         String params = "pubkeyhash=" + WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey);
         System.out.println("params:" + params);
         String result = sendPost(urlSendNonce,params);
         System.out.println("result:" + result);
-        Integer nonce = (Integer) JSONObject.parseObject(result).get("data");
+        Integer nonce = (Integer)JSONObject.parseObject(result).get("data");
 
-        //1.21 抵押事务
-//        String traninfo = (String) TxUtility.ClientToTransferMortgage(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(100000),nonce.longValue(),prikey).get("message");
-//        String txHash = (String) TxUtility.ClientToTransferMortgage(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(100000),nonce.longValue(),prikey).get("data");
-//        System.out.println("traninfo:" + traninfo);
-//        System.out.println("txHash:" + txHash);
-//        sendTransaction(traninfo);
-
-        //1.19 投票
-        String traninfo = (String)TxUtility.ClientToTransferVote(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(10000),nonce.longValue(),prikey).get("message");
-        String txHash = (String)TxUtility.ClientToTransferVote(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(10000),nonce.longValue(),prikey).get("data");
-        System.out.println("traninfo:" + traninfo);
-        System.out.println("txHash:" + txHash);
-        sendTransaction(traninfo);
-
-
-        //1.22 撤回抵押事务
-//        String traninfo = (String) TxUtility.ClientToTransferMortgageWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(10000),nonce.longValue(),"1b2e4eb16089720f98dad483b3e73e346ae804a16ceda60c8ed2be2e74db32af",prikey).get("message");
-//        String txHash = (String) TxUtility.ClientToTransferMortgageWithdraw(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(10000),nonce.longValue(),"1b2e4eb16089720f98dad483b3e73e346ae804a16ceda60c8ed2be2e74db32af",prikey).get("data");
-//        System.out.println("traninfo:" + traninfo);
-//        System.out.println("txHash:" + txHash);
-//        sendTransaction(traninfo);
+        String a = TxUtility.CreateRawTransaction(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey), BigDecimal.valueOf(123),nonce.longValue());
+        String b = TxUtility.CreateRawTransaction(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey),BigDecimal.valueOf(123),nonce.longValue());
+        System.out.println(a);
+        System.out.println(b);
 
     }
 
-    private static void sendTransaction(String traninfo){
-        String url = "http://192.168.1.40:19585/sendTransaction";
-        String param = "traninfo=" + traninfo;
-//        System.out.println("traninfo:"+traninfo);
-        String result = sendPost(url, param);
-        System.out.println("结果:"  + result);
-    }
+
 
 }

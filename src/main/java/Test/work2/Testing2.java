@@ -152,12 +152,11 @@ public class Testing2 {
 //        }
 
         // 1.16 转账
-        String txInfo = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey2), BigDecimal.valueOf(100000),prikey, nonce.longValue()).get("message");
-        String txHash = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey2), BigDecimal.valueOf(100000),prikey, nonce.longValue()).get("data");
+        String txInfo = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey2), BigDecimal.valueOf(110000),prikey, nonce.longValue()).get("message");
+        String txHash = (String) TxUtility.ClientToTransferAccount(fromPubkey,WalletUtility.pubkeyStrToPubkeyHashStr(fromPubkey2), BigDecimal.valueOf(110000),prikey, nonce.longValue()).get("data");
         System.out.println("txInfo:" + txInfo);
         System.out.println("txHash:" + txHash);
         sendTransaction(txInfo);
-
 
     }
 

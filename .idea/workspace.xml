@@ -7,72 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b3013a4-3c5f-4abb-bd66-db813ec6b835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js-sdk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/For/forvote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/laoli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/NewTest/new1022.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/event/zhuanzhang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/test0129/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test/For/forvote.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test/NewTest/new1022.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test/event/zhuanzhang.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test/test0129/test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/newwallet1120.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/OCtest/OCtest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/For/For7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/For/For7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/KeyStoreInfo/Test7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/testinfo/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/testinfo/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/testinfo/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/testinfo/test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/testinfo/testTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/testinfo/testTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Testing1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Testing1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Testing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Testing2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Testing3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Testing3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Vote0929.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Vote0929.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work/Vote1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work/Vote1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work2/Testing1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work2/Testing1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test/work2/Testing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work2/Testing2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/work2/Testing3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work2/Testing3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test/work2/Testing4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/work2/Testing4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/For/For7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/For/For7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/KeyStoreInfo/Test7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/testinfo/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/testinfo/test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/testinfo/test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/testinfo/test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/testinfo/testTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/testinfo/testTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Testing1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Testing1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Testing2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Testing2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Testing3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Testing3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Vote0929.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Vote0929.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/work/Vote1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work/Vote1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/work2/Testing1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work2/Testing1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/work2/Testing2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work2/Testing2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/work2/Testing3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work2/Testing3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/work2/Testing4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/work2/Testing4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wcli.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wcli.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Testing2">
+  <component name="RunManager" selected="Application.newwallet1120">
     <configuration name="Test8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.KeyStoreInfo.Test8" />
       <module name="wcli" />
@@ -190,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.testinfo.testTest" />
+    <configuration name="newwallet1120" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.KeyStoreInfo.newwallet1120" />
       <module name="wcli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.testinfo.*" />
+          <option name="PATTERN" value="Test.KeyStoreInfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,18 +146,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Testing4" />
-      <item itemvalue="Application.testTest" />
       <item itemvalue="Application.Test8" />
       <item itemvalue="Application.laoli" />
       <item itemvalue="Application.Testing2" />
+      <item itemvalue="Application.newwallet1120" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.newwallet1120" />
+        <item itemvalue="Application.Testing4" />
         <item itemvalue="Application.Testing2" />
         <item itemvalue="Application.laoli" />
         <item itemvalue="Application.Test8" />
-        <item itemvalue="Application.testTest" />
-        <item itemvalue="Application.Testing4" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +200,8 @@
       <workItem from="1573004535835" duration="4714000" />
       <workItem from="1573089130444" duration="5082000" />
       <workItem from="1573115448457" duration="2825000" />
-      <workItem from="1573434921782" duration="5158000" />
+      <workItem from="1573434921782" duration="12325000" />
+      <workItem from="1574047954350" duration="7097000" />
     </task>
     <servers />
   </component>
